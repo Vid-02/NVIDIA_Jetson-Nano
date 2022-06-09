@@ -1,0 +1,61 @@
+# HARDWARE:-
+-Jetson Nano Developer Kit
+-Computer with Internet Access and SD card port
+-microSD Memory Card (32GB UHS-I minimum)
+-compatible 5V 4A Power Supply with 2.1mm DC barrel connector
+-2-pin jumper
+-USB cable (Micro-B to Type-A)
+-compatible USB webcam camera such as Logitech C270 Webcam
+
+The complete hardware kit is available from Sparkfun either with the Jetson Nano included or without the Jetson Nano included.
+
+# COMPUTER:-
+-A computer with an internet connection and the ability to flash your microSD card
+-An available USBA port on your computer (you may need an adapter if you only have USBC ports)
+
+**Download Python version 3.9(recommended) if not already downloaded in your device
+# setup - pre install include Python and pip:-
+@Commands:-
+sudo apt update
+sudo apt-get update
+sudo apt-get install python3-pip
+sudo pip3 install -U pip testresources setuptools==49.6.0
+
+========================================================================================================================
+
+**Python Libraries/Modules Needed to be installed to run this code:-
+
+# Numpy 
+$ pip3 install numpy
+
+# cmake
+$ pip3 install cmake
+
+# dlib
+$ pip3 install dlib
+--> If it Doesn't work directly :- 
+	1) Download the .whl file from https://github.com/shashankx86/dlib_compiled according to your Python Version
+	2) in Terminal type cd Downloads
+	3) $ pip install name_of_whl_file.whl
+
+# face_recognition
+--> once you have cmake and dlib installed
+$ pip3 install face-recognition
+
+# open cv (Version 4.1.1 works better if You need CSI Camera feed or else any other version is fine)
+$ pip3 install opencv-python
+
+# Pickle
+$ pip3 install pickle-mixin (if this doesn't work follow the other command)
+           or
+$ pip3 install pickle5
+
+# os
+$ pip3 install os
+
+# Datetime
+# pip3 install datetime
+
+========================================================================================================================
+
+After setting up jetpack, python environment and installing the modules listed above you can run the main code(doorcam.py) and get the output successfully!
