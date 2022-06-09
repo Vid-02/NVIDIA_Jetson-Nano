@@ -24,8 +24,8 @@ Hence it becomes easy to keep track of number of Visitors on a daily basis.
 -To exit the code you can press 'q' or Ctrl+C in the terminal
 
 # TO RUN THE CODE
--Refer Requirements.txt file in my repository and complete the initial setup and various installations that are required
--After completing the above step you can run the main code i.e. doorcam.py in the respective folder(Door
+-Refer Requirements.txt file in my repository and complete the initial setup and various installations that are required.
+-After completing the above step you can run the main code i.e. doorcam.py in the respective folder(Door_camera_face_detection).
 
 # USE
 This project can be used as realtime door camera for home-security purposes. We can keep track of number of visitors at our home datewise with the respective 
